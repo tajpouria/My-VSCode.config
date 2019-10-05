@@ -1,6 +1,10 @@
 {
   "editor.renderWhitespace": "boundary", 
 
+   "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+   },
+
     "[typescriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -36,13 +40,6 @@
     "vim.hlsearch": true,
     "vim.overrideCopy" : true,
     "vim.autoindent" : true,
-    "vim.statusBarColorControl": true,
-    "vim.statusBarColors.normal": ["#8FBCBB", "#434C5E"],
-    "vim.statusBarColors.insert": "#BF616A",
-    "vim.statusBarColors.visual": "#B48EAD",
-    "vim.statusBarColors.visualline": "#B48EAD",
-    "vim.statusBarColors.visualblock": "#A3BE8C",
-    "vim.statusBarColors.replace": "#D08770",
     "vim.insertModeKeyBindings": [
       {
         "before": ["j", "j"],
@@ -56,11 +53,5 @@
     { "language": "typescript", "autoFix": true },
     { "language": "typescriptreact", "autoFix": true }
   ],
-  "prettier.tabWidth": 4,
-  "workbench.colorCustomizations": {
-    "statusBar.background": "#8FBCBB",
-    "statusBar.noFolderBackground": "#8FBCBB",
-    "statusBar.debuggingBackground": "#8FBCBB",
-    "statusBar.foreground": "#434C5E"
-  },
-    }
+"prettier.tabWidth": 4,
+ }
