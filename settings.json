@@ -18,7 +18,7 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "typescript.updateImportsOnFileMove.enabled": "never",
-    "window.zoomLevel": -1,
+    "window.zoomLevel": 0,
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -47,8 +47,9 @@
     "vim.handleKeys": {
       "<C-a>": false,
       "<C-f>": false,
-      "<C-b>": false
-    }, 
+      "<C-b>": false,
+      "<Enter>": false,
+    },
 
     "eslint.validate": [
     "javascript",
