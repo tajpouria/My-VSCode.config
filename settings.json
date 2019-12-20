@@ -18,7 +18,7 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "typescript.updateImportsOnFileMove.enabled": "never",
-    "window.zoomLevel": 0,
+    "window.zoomLevel": -1,
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -38,6 +38,8 @@
     "vim.hlsearch": true,
     "vim.overrideCopy" : true,
     "vim.autoindent" : true,
+    "vim.searchHighlightTextColor" : "black", 
+    "vim.searchHighlightColor": "yellow",
     "vim.insertModeKeyBindings": [
       {
         "before": ["j", "j"],
