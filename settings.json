@@ -1,69 +1,69 @@
 {
+  // editor 
+  "editor.tabSize": 2,
+  "editor.fontSize": 13,
+  "editor.fontFamily": "Fira code, 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontWeight": "400",
   "editor.renderWhitespace": "boundary", 
+  "editor.fontLigatures": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "window.zoomLevel": -1,
+  "files.autoSave": "off",
 
-   "emmet.includeLanguages": {
-      "javascript": "javascriptreact"
-   },
-
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "cSpell.userWords": [
-        "tajpouria"
-    ],
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "typescript.updateImportsOnFileMove.enabled": "never",
-    "window.zoomLevel": -1,
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "files.autoSave": "off",
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "editor.fontLigatures": true,
- 
-    "vim.sneak": true,
-    "vim.incsearch": true,
-    "vim.useSystemClipboard": true,
-    "vim.useCtrlKeys": true,
-    "vim.hlsearch": true,
-    "vim.overrideCopy" : true,
-    "vim.autoindent" : true,
-    "vim.searchHighlightTextColor" : "black", 
-    "vim.searchHighlightColor": "yellow",
-    "vim.insertModeKeyBindings": [
-      {
-        "before": ["j", "j"],
-        "after": ["<Esc>"]
-      }
-    ],
-    "vim.handleKeys": {
-      "<C-a>": false,
-      "<C-f>": false,
-      "<C-b>": false,
-      "<C-h>": false,
-      "<Enter>": false,
-    },
-
-    "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    { "language": "typescript", "autoFix": true },
-    { "language": "typescriptreact", "autoFix": true }
+  // VIM
+  "vim.sneak": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.overrideCopy" : true,
+  "vim.autoindent" : true,
+  "vim.searchHighlightTextColor" : "black", 
+  "vim.searchHighlightColor": "yellow",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
   ],
-"prettier.tabWidth": 2,
-"workbench.startupEditor": "newUntitledFile",
-"editor.tabSize": 2,
-"editor.fontSize": 13,
-"editor.fontWeight": "500",
-"editor.fontFamily": "Fira code, 'monospace', monospace, 'Droid Sans Fallback'",
- }
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-b>": false,
+    "<C-h>": false,
+    "<Enter>": false,
+  },
+
+  // Prettier
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "all",
+
+  "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // CSpell
+  "cSpell.userWords": [
+      "tajpouria"
+  ],
+
+  // emmet
+  "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+  },
+}
