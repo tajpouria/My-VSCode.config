@@ -1,9 +1,7 @@
 {
   // editor 
   "editor.tabSize": 2,
-  "editor.fontSize": 13,
   "editor.fontFamily": "Fira code, 'monospace', monospace, 'Droid Sans Fallback'",
-  "editor.fontWeight": "400",
   "editor.renderWhitespace": "boundary", 
   "editor.fontLigatures": true,
   "workbench.startupEditor": "newUntitledFile",
@@ -66,4 +64,20 @@
   "emmet.includeLanguages": {
       "javascript": "javascriptreact"
   },
+  "editor.fontSize": 13,
+  "editor.fontWeight": "500",
+
+  // Bracket pair colorizer
+  "bracketPairColorizer.showBracketsInGutter" : true,
+  "bracketPairColorizer.consecutivePairColors": [
+          ["<", "</"],
+          ["<", "/>"],
+          [
+              "Gold",
+              "Orchid",
+              "LightSkyBlue"
+          ],
+          "Red"
+      ]
 }
+
