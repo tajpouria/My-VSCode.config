@@ -69,15 +69,5 @@
 
   // Bracket pair colorizer
   "bracketPairColorizer.showBracketsInGutter" : true,
-  "bracketPairColorizer.consecutivePairColors": [
-          ["<", "</"],
-          ["<", "/>"],
-          [
-              "Gold",
-              "Orchid",
-              "LightSkyBlue"
-          ],
-          "Red"
-      ]
 }
 
